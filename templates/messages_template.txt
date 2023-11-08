@@ -1,0 +1,21 @@
+{"messages": [
+  
+  {"role": "system", "content": "content(context)"},
+
+  {"role": "user", "content": "content(input)"},
+
+  {"role": "assistant", "content": "content(output)"}
+
+]}
+
+"messages": This is the outermost structure of the format and represents a list of messages. Each message contains a conversation turn, and you can have multiple messages in a single conversation.
+
+"role": This field specifies the role of the speaker in the conversation. Common roles include:
+
+"user": Represents the user or person interacting with the chatbot.
+
+"assistant": Represents the chatbot's responses.
+
+"system": Represents system-level instructions or context. It's used to provide guidance to the assistant, such as setting the chatbot's behavior.
+
+"content": This field contains the text content of the message. It represents what the speaker is saying in the conversation. This is where you provide the input or query for the model or capture the model's responses.
